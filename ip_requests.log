@@ -1,0 +1,118 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2218
+"GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+"GET /swagger/?format=openapi HTTP/1.1" 200 10968
+"GET /redoc/ HTTP/1.1" 200 932
+"GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+"GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+"GET /redoc/?format=openapi HTTP/1.1" 200 10968
+"GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+"GET /admin/core/customuser/2/change/ HTTP/1.1" 200 27200
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 8407
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /admin/core/customuser/ HTTP/1.1" 200 13751
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"OPTIONS /api/token/ HTTP/1.1" 200 0
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+Watching for file changes with StatReloader
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+Not Found: /api/token/
+"POST /api/token/ HTTP/1.1" 404 7969
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+Unauthorized: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 401 63
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2218
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+"GET /swagger/?format=openapi HTTP/1.1" 200 10968
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /swagger/ HTTP/1.1" 200 2218
+"GET /swagger/?format=openapi HTTP/1.1" 200 10968
+"GET /admin/core/customuser/1/change/ HTTP/1.1" 200 27216
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+Not Found: /favicon.ico
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Watching for file changes with StatReloader
