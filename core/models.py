@@ -24,16 +24,16 @@ class CustomUser(AbstractUser):
 User = settings.AUTH_USER_MODEL
 
 class Project(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=255)
     description = models.TextField(blank=True)
     created_by = models.ForeignKey(
-        User,
+        CustomUser,
         on_delete=models.CASCADE,
-        related_name='projects'
+        related_name="created_projects"
     )
     members = models.ManyToManyField(
         CustomUser,
-        related_name='member_projects',
+        related_name="projects",
         blank=True
     )
     created_at = models.DateTimeField(auto_now_add=True)

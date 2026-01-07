@@ -1682,3 +1682,6 @@ Forbidden: /api/issues/
 "GET /api/issues/?project=2 HTTP/1.1" 200 2511
 "GET /api/issues/?project=2 HTTP/1.1" 200 2511
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/models.py changed, reloading.
+Watching for file changes with StatReloader
