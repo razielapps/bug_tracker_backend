@@ -116,3 +116,1569 @@ Watching for file changes with StatReloader
 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
 "POST /api/auth/login/ HTTP/1.1" 200 489
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2807
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Internal Server Error: /api/projects
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/projects/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/projects HTTP/1.1" 500 77122
+"GET /api/projects HTTP/1.1" 301 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 58
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+"GET /static/admin/css/base.css HTTP/1.1" 200 22120
+Not Found: /favicon.ico
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8407
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/core/customuser/ HTTP/1.1" 200 13751
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/core/customuser/2/change/ HTTP/1.1" 200 27200
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /admin/core/customuser/add/ HTTP/1.1" 200 13871
+"GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+"GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/customuser/add/ HTTP/1.1" 302 0
+"GET /admin/core/customuser/3/change/ HTTP/1.1" 200 27403
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/core/customuser/ HTTP/1.1" 200 14265
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/customuser/3/change/ HTTP/1.1" 200 27164
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 9709
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 15232
+"GET /admin/token_blacklist/outstandingtoken/79/change/ HTTP/1.1" 200 13328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/projects HTTP/1.1" 301 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /admin/core/customuser/ HTTP/1.1" 200 14265
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/customuser/3/change/ HTTP/1.1" 200 27164
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 404 8656
+Not Found: /api/auth/token/
+"POST /api/auth/token/ HTTP/1.1" 404 8657
+Not Found: /api/auth/token
+"POST /api/auth/token HTTP/1.1" 404 8654
+"GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 15232
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/token_blacklist/outstandingtoken/79/change/ HTTP/1.1" 200 13328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /api/auth/token
+"POST /api/auth/token HTTP/1.1" 404 8654
+Internal Server Error: /api/projects
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/projects/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/projects HTTP/1.1" 500 77270
+"GET /api/projects HTTP/1.1" 301 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /admin/core/customuser/ HTTP/1.1" 200 14265
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /admin/core/customuser/3/change/ HTTP/1.1" 200 27164
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/auth/register HTTP/1.1" 301 0
+Unauthorized: /api/auth/register/
+"GET /api/auth/register/ HTTP/1.1" 401 172
+"GET /api/auth/register HTTP/1.1" 301 0
+Unauthorized: /api/auth/register/
+"GET /api/auth/register/ HTTP/1.1" 401 172
+"GET /api/auth/register HTTP/1.1" 301 0
+Method Not Allowed: /api/auth/register/
+"GET /api/auth/register/ HTTP/1.1" 405 40
+Internal Server Error: /api/auth/register
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/auth/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/register HTTP/1.1" 500 77201
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 43
+"GET /admin/core/customuser/ HTTP/1.1" 200 14265
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/customuser/3/change/ HTTP/1.1" 200 27164
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 49
+"POST /api/auth/register/ HTTP/1.1" 201 118
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8796
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 15232
+Not Found: /favicon.ico
+"GET /admin/core/customuser/ HTTP/1.1" 200 14804
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/customuser/4/change/ HTTP/1.1" 200 27246
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /api/auth/token/
+"POST /api/auth/token/ HTTP/1.1" 404 8657
+Not Found: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 404 8656
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api/auth/token/ HTTP/1.1" 200 489
+Unauthorized: /api/auth/token/
+"POST /api/auth/token/ HTTP/1.1" 401 63
+"POST /api/auth/token/ HTTP/1.1" 200 489
+"POST /api/auth/token/ HTTP/1.1" 200 489
+Method Not Allowed: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 405 7731
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2858
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+Method Not Allowed: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 405 7731
+Method Not Allowed: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 405 7731
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2858
+Watching for file changes with StatReloader
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"OPTIONS /projects/ HTTP/1.1" 200 0
+"OPTIONS /projects/ HTTP/1.1" 200 0
+Not Found: /projects/
+Not Found: /projects/
+"GET /projects/ HTTP/1.1" 404 2852
+"GET /projects/ HTTP/1.1" 404 2852
+Not Found: /projects/
+"GET /projects/ HTTP/1.1" 404 2852
+Internal Server Error: /api/projects
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/projects/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/projects HTTP/1.1" 500 77268
+"GET /api/projects HTTP/1.1" 301 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"GET /api/issues/ HTTP/1.1" 200 2
+"GET /api/issues/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/issues/ HTTP/1.1" 200 2
+"GET /api/issues/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+"GET /api/projects/ HTTP/1.1" 200 2
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Not Found: /
+"GET / HTTP/1.1" 404 2807
+"GET /admin/core/customuser/ HTTP/1.1" 200 14804
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/core/customuser/ HTTP/1.1" 200 15223
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/project/ HTTP/1.1" 200 11184
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/add/ HTTP/1.1" 200 12990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/project/add/ HTTP/1.1" 302 0
+"GET /admin/core/project/ HTTP/1.1" 200 13490
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Not Found: /api/auth/refresh
+"GET /api/auth/refresh HTTP/1.1" 404 11104
+"GET /api/auth/token/refresh HTTP/1.1" 301 0
+Method Not Allowed: /api/auth/token/refresh/
+"GET /api/auth/token/refresh/ HTTP/1.1" 405 7551
+"GET /api/auth/token HTTP/1.1" 301 0
+Method Not Allowed: /api/auth/token/
+"GET /api/auth/token/ HTTP/1.1" 405 40
+Internal Server Error: /api/auth/token
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/auth/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/token HTTP/1.1" 500 77300
+"POST /api/auth/token/ HTTP/1.1" 200 489
+Internal Server Error: /api/auth/token/refresh
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/auth/token/refresh/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/auth/token/refresh HTTP/1.1" 500 77428
+"POST /api/auth/token/refresh/ HTTP/1.1" 200 489
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"OPTIONS /api/auth/token/refresh/ HTTP/1.1" 200 0
+"POST /api/auth/token/refresh/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"GET /api/issues/?project=1 HTTP/1.1" 200 2
+"GET /api/issues/?project=1 HTTP/1.1" 200 2
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"POST /api/issues/ HTTP/1.1" 201 221
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 223
+"OPTIONS /api/issues/1/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/1/ HTTP/1.1" 200 0
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 223
+"GET /api/issues/?project=1 HTTP/1.1" 200 223
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 223
+"GET /api/issues/?project=1 HTTP/1.1" 200 223
+"POST /api/issues/ HTTP/1.1" 201 227
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"OPTIONS /api/issues/2/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/2/ HTTP/1.1" 200 0
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"OPTIONS /api/comments/ HTTP/1.1" 200 0
+"POST /api/comments/ HTTP/1.1" 201 85
+"POST /api/comments/ HTTP/1.1" 201 82
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+Forbidden: /api/issues/1/
+"PATCH /api/issues/1/ HTTP/1.1" 403 63
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"POST /api/comments/ HTTP/1.1" 201 85
+"GET /admin/core/project/ HTTP/1.1" 200 13286
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 13265
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 14085
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/comment/ HTTP/1.1" 200 15075
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/comment/3/change/ HTTP/1.1" 200 15190
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/issue/ HTTP/1.1" 200 16198
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/issue/2/change/ HTTP/1.1" 200 19492
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+Forbidden: /api/issues/1/
+"PATCH /api/issues/1/ HTTP/1.1" 403 63
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+Forbidden: /api/issues/1/
+"PATCH /api/issues/1/ HTTP/1.1" 403 63
+Forbidden: /api/issues/1/
+"PATCH /api/issues/1/ HTTP/1.1" 403 63
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+Unauthorized: /api/issues/2/
+"GET /api/issues/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/projects/1/ HTTP/1.1" 200 140
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+Not Found: /
+"GET / HTTP/1.1" 404 2807
+"GET /api/projects/ HTTP/1.1" 200 142
+"GET /api/projects/ HTTP/1.1" 200 142
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/permissions.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/permissions.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/permissions.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/permissions.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/permissions.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/?project=1 HTTP/1.1" 200 451
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"GET /api/issues/2/ HTTP/1.1" 200 227
+"PATCH /api/issues/2/ HTTP/1.1" 200 232
+"GET /api/issues/2/ HTTP/1.1" 200 232
+"GET /api/issues/2/ HTTP/1.1" 200 232
+Bad Request: /api/issues/2/
+"PATCH /api/issues/2/ HTTP/1.1" 400 53
+"GET /admin/core/issue/2/change/ HTTP/1.1" 200 19512
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Bad Request: /api/issues/2/
+"PATCH /api/issues/2/ HTTP/1.1" 400 53
+"GET /admin/core/issue/ HTTP/1.1" 200 16208
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/issue/2/change/ HTTP/1.1" 200 19512
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 456
+"GET /api/issues/?project=1 HTTP/1.1" 200 456
+"GET /api/issues/2/ HTTP/1.1" 200 232
+"GET /api/issues/2/ HTTP/1.1" 200 232
+"PATCH /api/issues/2/ HTTP/1.1" 200 239
+"GET /api/issues/ HTTP/1.1" 200 463
+"GET /api/issues/ HTTP/1.1" 200 463
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 463
+"GET /api/issues/?project=1 HTTP/1.1" 200 463
+"POST /admin/core/issue/2/change/ HTTP/1.1" 302 0
+"GET /admin/core/issue/ HTTP/1.1" 200 16452
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 489
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 489
+"GET /api/issues/?project=1 HTTP/1.1" 200 489
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"GET /api/issues/2/ HTTP/1.1" 200 265
+Internal Server Error: /api/comments/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "issue_id" of relation "core_comment" violates not-null constraint
+DETAIL:  Failing row contains (4, hello, 2026-01-07 01:16:50.085865+00, 4, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py", line 108, in perform_create
+    serializer.save(user=self.request.user)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "issue_id" of relation "core_comment" violates not-null constraint
+DETAIL:  Failing row contains (4, hello, 2026-01-07 01:16:50.085865+00, 4, null).
+
+"POST /api/comments/ HTTP/1.1" 500 201537
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/issues/2/ HTTP/1.1" 200 265
+Unauthorized: /api/comments/
+"POST /api/comments/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 489
+"GET /api/issues/?project=1 HTTP/1.1" 200 489
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"GET /api/comments HTTP/1.1" 301 0
+Unauthorized: /api/comments/
+"GET /api/comments/ HTTP/1.1" 401 5181
+Not Found: /favicon.ico
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"OPTIONS /api/api/comments/ HTTP/1.1" 200 0
+Not Found: /api/api/comments/
+"POST /api/api/comments/ HTTP/1.1" 404 10435
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"POST /api/comments/ HTTP/1.1" 201 85
+"GET /admin/core/comment/ HTTP/1.1" 200 15572
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/comment/5/change/ HTTP/1.1" 200 15210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"GET /api/issues/2/ HTTP/1.1" 200 265
+"PATCH /api/issues/2/ HTTP/1.1" 200 267
+"GET /api/issues/2/ HTTP/1.1" 200 267
+"GET /api/issues/2/ HTTP/1.1" 200 267
+"PATCH /api/issues/2/ HTTP/1.1" 200 269
+"GET /api/issues/ HTTP/1.1" 200 493
+"GET /api/issues/ HTTP/1.1" 200 493
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 493
+"GET /api/issues/?project=1 HTTP/1.1" 200 493
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/ HTTP/1.1" 200 493
+"GET /api/issues/ HTTP/1.1" 200 493
+"GET /api/issues/2/ HTTP/1.1" 200 269
+"GET /api/issues/2/ HTTP/1.1" 200 269
+"PATCH /api/issues/2/ HTTP/1.1" 200 267
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/ HTTP/1.1" 200 155
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 491
+"GET /api/issues/?project=1 HTTP/1.1" 200 491
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"GET /api/issues/1/ HTTP/1.1" 200 221
+"POST /api/comments/ HTTP/1.1" 201 86
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/projects/1/ HTTP/1.1" 200 153
+"GET /api/issues/?project=1 HTTP/1.1" 200 491
+"GET /api/issues/?project=1 HTTP/1.1" 200 491
+"GET /api/issues/2/ HTTP/1.1" 200 267
+"GET /api/issues/2/ HTTP/1.1" 200 267
+"POST /api/comments/ HTTP/1.1" 201 93
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/issues/2/
+"GET /api/issues/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 561
+"GET /api/issues/?project=1 HTTP/1.1" 200 561
+"GET /api/issues/1/ HTTP/1.1" 200 256
+"GET /api/issues/1/ HTTP/1.1" 200 256
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 561
+"GET /api/issues/?project=1 HTTP/1.1" 200 561
+"GET /api/issues/2/ HTTP/1.1" 200 302
+"GET /api/issues/2/ HTTP/1.1" 200 302
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"POST /api/comments/ HTTP/1.1" 201 150
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"POST /api/comments/ HTTP/1.1" 201 150
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"POST /api/comments/ HTTP/1.1" 201 151
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/issues/2/
+"GET /api/issues/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/1/ HTTP/1.1" 200 196
+"GET /api/issues/1/ HTTP/1.1" 200 196
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"GET /api/issues/2/ HTTP/1.1" 200 236
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/?project=1 HTTP/1.1" 200 435
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"GET /api/issues/2/ HTTP/1.1" 200 236
+"GET /api/issues/2/ HTTP/1.1" 200 236
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/issues/2/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 375, in fields
+    fields[key] = value
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/utils/serializer_helpers.py", line 167, in __setitem__
+    field.bind(field_name=key, parent=self.serializer)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/fields.py", line 358, in bind
+    assert self.source != field_name, (
+AssertionError: It is redundant to specify `source='comments'` on field 'ListSerializer' in serializer 'IssueSerializer', because it is the same as the field name. Remove the `source` keyword argument.
+"GET /api/issues/2/ HTTP/1.1" 500 139802
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/issues/2/ HTTP/1.1" 200 969
+Unauthorized: /api/issues/2/
+"PATCH /api/issues/2/ HTTP/1.1" 401 172
+Unauthorized: /api/issues/2/
+"PATCH /api/issues/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"PATCH /api/issues/2/ HTTP/1.1" 200 976
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1393
+"GET /api/issues/?project=1 HTTP/1.1" 200 1393
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1393
+"GET /admin/core/project/ HTTP/1.1" 200 14106
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 15557
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/ HTTP/1.1" 200 14106
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 15557
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/issues/2/ HTTP/1.1" 200 976
+"GET /api/issues/2/ HTTP/1.1" 200 976
+"PATCH /api/issues/2/ HTTP/1.1" 200 976
+"PATCH /api/issues/2/ HTTP/1.1" 200 971
+"PATCH /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"OPTIONS /api/issues/2/ HTTP/1.1" 200 0
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"GET /api/issues/2/ HTTP/1.1" 200 969
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+Watching for file changes with StatReloader
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"OPTIONS /api/issues/1/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/1/ HTTP/1.1" 200 0
+"GET /api/issues/1/ HTTP/1.1" 200 414
+"GET /api/issues/1/ HTTP/1.1" 200 414
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 15557
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/ HTTP/1.1" 200 190
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /api/issues/?project=1 HTTP/1.1" 200 1386
+"GET /admin/core/customuser/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8132
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/ HTTP/1.1" 200 14106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/core/project/add/ HTTP/1.1" 200 15282
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/project/add/ HTTP/1.1" 302 0
+"GET /admin/core/project/ HTTP/1.1" 200 14737
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/core/project/2/change/ HTTP/1.1" 200 15568
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/projects/ HTTP/1.1" 200 390
+"GET /api/projects/ HTTP/1.1" 200 390
+"OPTIONS /api/projects/2/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/2/ HTTP/1.1" 200 0
+"GET /api/projects/2/ HTTP/1.1" 200 199
+"GET /api/projects/2/ HTTP/1.1" 200 199
+"OPTIONS /api/issues/?project=2 HTTP/1.1" 200 0
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+"GET /admin/core/customuser/ HTTP/1.1" 200 16043
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/core/customuser/4/change/ HTTP/1.1" 200 28485
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /admin/core/customuser/4/change/ HTTP/1.1" 302 0
+"GET /admin/core/customuser/ HTTP/1.1" 200 16259
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+"GET /admin/core/customuser/4/change/ HTTP/1.1" 200 28515
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/projects/2/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'CustomUser' object has no attribute 'firest_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `ProjectMemberSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `CustomUser` instance.
+Original exception text was: 'CustomUser' object has no attribute 'firest_name'.
+"GET /api/projects/2/ HTTP/1.1" 500 148382
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+Internal Server Error: /api/issues/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.NotNullViolation: null value in column "project_id" of relation "core_issue" violates not-null constraint
+DETAIL:  Failing row contains (3, Some Issues, Just some new issues, open, medium, 2026-01-07 08:29:58.148019+00, null, 4, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py", line 85, in perform_create
+    serializer.save(created_by=self.request.user)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: null value in column "project_id" of relation "core_issue" violates not-null constraint
+DETAIL:  Failing row contains (3, Some Issues, Just some new issues, open, medium, 2026-01-07 08:29:58.148019+00, null, 4, null).
+
+"POST /api/issues/ HTTP/1.1" 500 210869
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/issues/
+"POST /api/issues/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+"GET /api/issues/?project=2 HTTP/1.1" 200 2
+Bad Request: /api/issues/
+"POST /api/issues/ HTTP/1.1" 400 61
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/projects/
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 1441
+"GET /api/issues/?project=1 HTTP/1.1" 200 1441
+Forbidden: /api/issues/
+"POST /api/issues/ HTTP/1.1" 403 60
+Watching for file changes with StatReloader
+Forbidden: /api/issues/
+"POST /api/issues/ HTTP/1.1" 403 60
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/issues/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py", line 84, in perform_create
+    if self.request.user not in project.members.all():
+AttributeError: 'NoneType' object has no attribute 'members'
+"POST /api/issues/ HTTP/1.1" 500 108906
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/issues/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py", line 84, in perform_create
+    if self.request.user not in project.members.all():
+AttributeError: 'NoneType' object has no attribute 'members'
+"POST /api/issues/ HTTP/1.1" 500 109134
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/issues/
+"POST /api/issues/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 1386
+"GET /api/issues/?project=2 HTTP/1.1" 200 1386
+Internal Server Error: /api/issues/
+Traceback (most recent call last):
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/osboxes/projects/bug_tracker/btenv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py", line 82, in perform_create
+    raise serializers.ValidationError({"project": "Project is required."})
+NameError: name 'serializers' is not defined
+"POST /api/issues/ HTTP/1.1" 500 109172
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/issues/
+"POST /api/issues/ HTTP/1.1" 400 34
+Bad Request: /api/issues/
+"POST /api/issues/ HTTP/1.1" 400 34
+Bad Request: /api/issues/
+"POST /api/issues/ HTTP/1.1" 400 34
+Bad Request: /api/issues/
+"POST /api/issues/ HTTP/1.1" 400 34
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/core/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/issues/ HTTP/1.1" 201 200
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 1597
+"GET /api/issues/?project=2 HTTP/1.1" 200 1597
+"POST /api/issues/ HTTP/1.1" 201 206
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 1804
+"GET /api/issues/?project=2 HTTP/1.1" 200 1804
+"POST /api/issues/ HTTP/1.1" 201 203
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2008
+"GET /api/issues/?project=2 HTTP/1.1" 200 2008
+"OPTIONS /api/issues/5/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/5/ HTTP/1.1" 200 0
+"GET /api/issues/5/ HTTP/1.1" 200 206
+"GET /api/issues/5/ HTTP/1.1" 200 206
+"OPTIONS /api/comments/ HTTP/1.1" 200 0
+"POST /api/comments/ HTTP/1.1" 201 100
+"GET /api/issues/5/ HTTP/1.1" 200 306
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2108
+"GET /api/issues/?project=1 HTTP/1.1" 200 2108
+Forbidden: /api/issues/
+"POST /api/issues/ HTTP/1.1" 403 50
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2108
+"GET /api/issues/?project=1 HTTP/1.1" 200 2108
+"OPTIONS /api/issues/6/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/6/ HTTP/1.1" 200 0
+"GET /api/issues/6/ HTTP/1.1" 200 203
+"GET /api/issues/6/ HTTP/1.1" 200 203
+"POST /api/comments/ HTTP/1.1" 201 102
+"GET /api/issues/6/ HTTP/1.1" 200 305
+Unauthorized: /api/issues/6/
+Unauthorized: /api/issues/6/
+"GET /api/issues/6/ HTTP/1.1" 401 172
+"GET /api/issues/6/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2210
+"GET /api/issues/?project=2 HTTP/1.1" 200 2210
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/1/ HTTP/1.1" 200 419
+"GET /api/issues/1/ HTTP/1.1" 200 419
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/5/ HTTP/1.1" 200 306
+"GET /api/issues/5/ HTTP/1.1" 200 306
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/projects/1/ HTTP/1.1" 200 188
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+"GET /api/issues/?project=1 HTTP/1.1" 200 2210
+Forbidden: /api/issues/
+"POST /api/issues/ HTTP/1.1" 403 50
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2210
+"GET /api/issues/?project=2 HTTP/1.1" 200 2210
+"POST /api/issues/ HTTP/1.1" 201 196
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2407
+"GET /api/issues/?project=2 HTTP/1.1" 200 2407
+"OPTIONS /api/issues/7/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/7/ HTTP/1.1" 200 0
+"GET /api/issues/7/ HTTP/1.1" 200 196
+"GET /api/issues/7/ HTTP/1.1" 200 196
+"POST /api/comments/ HTTP/1.1" 201 102
+"GET /api/issues/7/ HTTP/1.1" 200 298
+"GET /api/issues/7/ HTTP/1.1" 200 298
+"PATCH /api/issues/7/ HTTP/1.1" 200 300
+"GET /api/issues/7/ HTTP/1.1" 200 300
+"GET /api/issues/7/ HTTP/1.1" 200 300
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/ HTTP/1.1" 200 425
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/projects/2/ HTTP/1.1" 200 234
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+Watching for file changes with StatReloader

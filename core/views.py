@@ -1,24 +1,39 @@
-from rest_framework import generics,viewsets, permissions, filters
+from django.db.models import Q
+from rest_framework import generics, viewsets, permissions, filters
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
+from rest_framework import serializers
 from rest_framework import status
+from rest_framework.exceptions import PermissionDenied
+from django.shortcuts import get_object_or_404
+
 from .models import CustomUser, Project, Issue, Comment, AuditLog
-from .serializers import RegisterSerializer, ProjectSerializer, IssueSerializer, CommentSerializer, AuditLogSerializer
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
+from .serializers import (
+    RegisterSerializer,
+    ProjectSerializer,
+    IssueSerializer,
+    CommentSerializer,
+    AuditLogSerializer,
 )
-from rest_framework import viewsets, permissions
-from .permissions import IsProjectCreatorOrReadOnly, IsIssueAssigneeOrReadOnly
+from .permissions import (
+    IsProjectCreatorOrReadOnly,
+    IsIssueEditor,
+)
 
 
+# =========================
+# AUTH
+# =========================
 
 class RegisterView(generics.CreateAPIView):
     queryset = CustomUser.objects.all()
-    permission_classes = [AllowAny]
     serializer_class = RegisterSerializer
+    permission_classes = [AllowAny]
 
 
+# =========================
+# PROJECTS
+# =========================
 
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
@@ -29,79 +44,106 @@ class ProjectViewSet(viewsets.ModelViewSet):
         serializer.save(created_by=self.request.user)
 
 
+# =========================
+# ISSUES
+# =========================
 
 class IssueViewSet(viewsets.ModelViewSet):
-    queryset = Issue.objects.all()
     serializer_class = IssueSerializer
-    permission_classes = [permissions.IsAuthenticated, IsIssueAssigneeOrReadOnly]
-    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
-    search_fields = ['title', 'description']
-    ordering_fields = ['priority', 'status', 'created_at']
+    permission_classes = [permissions.IsAuthenticated, IsIssueEditor]
 
     def get_queryset(self):
-        queryset = Issue.objects.all()
-        project_id = self.request.query_params.get('project')
-        status = self.request.query_params.get('status')
-        priority = self.request.query_params.get('priority')
-        assignee = self.request.query_params.get('assigned_to')
+        user = self.request.user
+        qs = Issue.objects.all()
 
+        # 🔐 Non-admin visibility
+        if user.role != "admin":
+            qs = qs.filter(
+                Q(created_by=user) |
+                Q(assigned_to=user)
+            )
+
+        # Optional project scoping (URL-based)
+        project_id = self.kwargs.get("project_id")
         if project_id:
-            queryset = queryset.filter(project_id=project_id)
-        if status:
-            queryset = queryset.filter(status=status)
-        if priority:
-            queryset = queryset.filter(priority=priority)
-        if assignee:
-            queryset = queryset.filter(assigned_to__id=assignee)
+            qs = qs.filter(project_id=project_id)
 
-        return queryset
+        return qs
 
     def perform_create(self, serializer):
+        # ✅ Project MUST come from request body
+        project = serializer.validated_data.get("project")
+
+        if not project:
+            raise serializers.ValidationError(
+                {"project": "Project is required."}
+            )
+
+        # 🔐 Only project members can create issues
+        if self.request.user not in project.members.all():
+            raise PermissionDenied(
+                "You are not a member of this project."
+            )
+
         serializer.save(created_by=self.request.user)
 
 
-class IsProjectMember(permissions.BasePermission):
-    def has_permission(self, request, view):
-        # Only authenticated users
-        return request.user and request.user.is_authenticated
+# =========================
+# COMMENTS 
+# =========================
 
-    def has_object_permission(self, request, view, obj):
-        # Only members of the same project as the issue
-        return obj.issue.project.members.filter(id=request.user.id).exists()
+# views.py
 
 class CommentViewSet(viewsets.ModelViewSet):
-    queryset = Comment.objects.all()
+    queryset = Comment.objects.select_related("issue", "user")
     serializer_class = CommentSerializer
-    permission_classes = [permissions.IsAuthenticated, IsProjectMember]
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        qs = Comment.objects.all()
+        issue_id = self.request.query_params.get("issue")
+
+        if issue_id:
+            qs = qs.filter(issue_id=issue_id)
+
+        return qs.order_by("created_at")
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
 
 
-
+# =========================
+# AUDIT LOGS
+# =========================
 
 class IsAuditViewer(permissions.BasePermission):
-    def has_permission(self, request, view):
-        return request.user and request.user.is_authenticated
-
     def has_object_permission(self, request, view, obj):
-        # Allow viewing if user is part of the related project or issue
-        if obj.project and request.user in obj.project.members.all():
-            return True
-        if obj.issue and request.user in obj.issue.project.members.all():
-            return True
+        if not request.user or not request.user.is_authenticated:
+            return False
+
+        # Project owner
+        if obj.project:
+            return obj.project.created_by == request.user
+
+        # Issue participants
+        if obj.issue:
+            return (
+                obj.issue.created_by == request.user or
+                obj.issue.assigned_to == request.user
+            )
+
         return False
 
+
 class AuditLogViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = AuditLog.objects.all().order_by('-timestamp')
+    queryset = AuditLog.objects.all().order_by("-timestamp")
     serializer_class = AuditLogSerializer
     permission_classes = [permissions.IsAuthenticated, IsAuditViewer]
 
     def get_queryset(self):
         user = self.request.user
         return AuditLog.objects.filter(
-            project__members=user
-        ) | AuditLog.objects.filter(
-            issue__project__members=user
+            Q(project__created_by=user) |
+            Q(issue__created_by=user) |
+            Q(issue__assigned_to=user)
         )
-

@@ -26,11 +26,21 @@ User = settings.AUTH_USER_MODEL
 class Project(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
-    created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='projects')
+    created_by = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='projects'
+    )
+    members = models.ManyToManyField(
+        CustomUser,
+        related_name='member_projects',
+        blank=True
+    )
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name
+
 
 
 class Issue(models.Model):
