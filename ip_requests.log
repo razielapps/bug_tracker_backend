@@ -2480,3 +2480,5 @@ Watching for file changes with StatReloader
 "GET /api/issues/?project=1 HTTP/1.1" 200 2633
 /home/osboxes/projects/bug_tracker/backend/bugtracker/bugtracker/settings.py changed, reloading.
 Watching for file changes with StatReloader
+/home/osboxes/projects/bug_tracker/backend/bugtracker/bugtracker/settings.py changed, reloading.
+Watching for file changes with StatReloader
