@@ -52,14 +52,27 @@ class ProjectMemberSerializer(serializers.ModelSerializer):
 
 
 class ProjectSerializer(serializers.ModelSerializer):
-    # Show username of creator instead of ID
-    created_by_username = serializers.CharField(source='created_by.username', read_only=True)
-    members = ProjectMemberSerializer(many=True, read_only=True)
+    created_by_username = serializers.CharField(
+        source="created_by.username",
+        read_only=True
+    )
+
+    members = serializers.PrimaryKeyRelatedField(
+        queryset=CustomUser.objects.all(),
+        many=True,
+        required=False
+    )
+
+    members_detail = ProjectMemberSerializer(
+        source="members",
+        many=True,
+        read_only=True
+    )
 
     class Meta:
         model = Project
-        fields = '__all__'
-        read_only_fields = ['created_by', 'created_at']
+        fields = "__all__"
+        read_only_fields = ["created_by", "created_at"]
 
 
 

@@ -1685,3 +1685,798 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/osboxes/projects/bug_tracker/backend/bugtracker/core/models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/core/project/ HTTP/1.1" 200 14532
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /favicon.ico
+"GET /admin/core/project/ HTTP/1.1" 200 14532
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/2/change/ HTTP/1.1" 200 15568
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/core/project/2/change/ HTTP/1.1" 302 0
+"GET /admin/core/project/ HTTP/1.1" 200 14739
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"OPTIONS /api/projects/NaN/ HTTP/1.1" 200 0
+Unauthorized: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Unauthorized: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+"GET /api/issues/?project=2 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Unauthorized: /api/comments/
+"GET /api/comments/ HTTP/1.1" 401 5181
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Watching for file changes with StatReloader
+"OPTIONS /api/projects/NaN/ HTTP/1.1" 200 0
+Unauthorized: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 401 172
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/1/ HTTP/1.1" 200 0
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"OPTIONS /api/projects/undefined/ HTTP/1.1" 200 0
+Not Found: /api/projects/undefined/
+"GET /api/projects/undefined/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+Not Found: /api/projects/NaN/
+"GET /api/projects/NaN/ HTTP/1.1" 404 23
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+Not Found: /api/project/
+"GET /api/project/ HTTP/1.1" 404 10419
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 5181
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"GET /api/projects/1 HTTP/1.1" 301 0
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 5339
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"OPTIONS /api/issues/2/ HTTP/1.1" 200 0
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/issues/?project=1 HTTP/1.1" 200 2511
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"OPTIONS /api/issues/1/ HTTP/1.1" 200 0
+"PATCH /api/issues/1/ HTTP/1.1" 200 444
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 445
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"PATCH /api/issues/1/ HTTP/1.1" 200 437
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+Unauthorized: /api/projects/1/
+"GET /api/projects/1/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/ HTTP/1.1" 200 545
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 208
+"GET /api/projects/1/ HTTP/1.1" 200 208
+Forbidden: /api/projects/1/
+"PATCH /api/projects/1/ HTTP/1.1" 403 63
+"GET /admin/core/project/ HTTP/1.1" 200 14532
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/core/project/ HTTP/1.1" 200 14532
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/core/project/1/change/ HTTP/1.1" 200 15557
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"POST /admin/core/project/1/change/ HTTP/1.1" 302 0
+"GET /admin/core/project/ HTTP/1.1" 200 14738
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/core/project/2/change/ HTTP/1.1" 200 15586
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2529
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+Unauthorized: /api/projects/
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /admin/core/customuser/ HTTP/1.1" 200 16043
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/core/customuser/4/change/ HTTP/1.1" 200 28515
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"OPTIONS /api/api/auth/register/ HTTP/1.1" 200 0
+Not Found: /api/api/auth/register/
+"POST /api/api/auth/register/ HTTP/1.1" 404 10450
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"POST /api/auth/register/ HTTP/1.1" 201 115
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"POST /api/auth/register/ HTTP/1.1" 201 118
+"POST /api/auth/register/ HTTP/1.1" 201 112
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 58
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+"POST /api/auth/register/ HTTP/1.1" 201 111
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"OPTIONS /api/projects/2/ HTTP/1.1" 200 0
+"OPTIONS /api/projects/2/ HTTP/1.1" 200 0
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"OPTIONS /api/issues/?project=2 HTTP/1.1" 200 0
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"POST /api/auth/register/ HTTP/1.1" 201 116
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 58
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"OPTIONS /api/issues/6/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/6/ HTTP/1.1" 200 0
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/issues/6/ HTTP/1.1" 200 305
+Unauthorized: /api/issues/6/
+"GET /api/issues/6/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/?project=2 HTTP/1.1" 200 2529
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"GET /api/issues/2/ HTTP/1.1" 200 974
+"PATCH /api/issues/2/ HTTP/1.1" 200 975
+"GET /api/issues/2/ HTTP/1.1" 200 975
+"GET /api/issues/2/ HTTP/1.1" 200 975
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/issues/ HTTP/1.1" 200 2530
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/issues/ HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/2/
+"GET /api/projects/2/ HTTP/1.1" 401 58
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/projects/1/ HTTP/1.1" 200 256
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+Unauthorized: /api/projects/
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /api/projects/ HTTP/1.1" 401 172
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 58
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=1 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/?project=2 HTTP/1.1" 200 2530
+"GET /api/issues/1/ HTTP/1.1" 200 437
+"GET /api/issues/1/ HTTP/1.1" 200 437
+"OPTIONS /api/comments/ HTTP/1.1" 200 0
+"POST /api/comments/ HTTP/1.1" 201 100
+"PATCH /api/issues/1/ HTTP/1.1" 200 540
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/projects/2/ HTTP/1.1" 200 334
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/issues/6/ HTTP/1.1" 200 305
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+Unauthorized: /api/projects/
+Unauthorized: /api/projects/
+"GET /api/projects/ HTTP/1.1" 401 172
+"GET /api/projects/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+Watching for file changes with StatReloader
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/2/ HTTP/1.1" 200 975
+"GET /api/issues/2/ HTTP/1.1" 200 975
+Unauthorized: /api/issues/2/
+"GET /api/issues/2/ HTTP/1.1" 401 172
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"OPTIONS /api/projects/ HTTP/1.1" 200 0
+"GET /api/projects/ HTTP/1.1" 200 593
+"OPTIONS /api/issues/?project=2 HTTP/1.1" 200 0
+"OPTIONS /api/issues/?project=1 HTTP/1.1" 200 0
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"OPTIONS /api/issues/ HTTP/1.1" 200 0
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/issues/ HTTP/1.1" 200 2633
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/projects/ HTTP/1.1" 200 593
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=2 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+"GET /api/issues/?project=1 HTTP/1.1" 200 2633
+/home/osboxes/projects/bug_tracker/backend/bugtracker/bugtracker/settings.py changed, reloading.
+Watching for file changes with StatReloader

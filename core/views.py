@@ -18,12 +18,14 @@ from .serializers import (
 from .permissions import (
     IsProjectCreatorOrReadOnly,
     IsIssueEditor,
+    IsStaffProjectCreatorOrReadOnly,
 )
 
 
 # =========================
 # AUTH
 # =========================
+
 
 class RegisterView(generics.CreateAPIView):
     queryset = CustomUser.objects.all()
@@ -35,18 +37,21 @@ class RegisterView(generics.CreateAPIView):
 # PROJECTS
 # =========================
 
+
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
-    permission_classes = [permissions.IsAuthenticated, IsProjectCreatorOrReadOnly]
+    permission_classes = [permissions.IsAuthenticated, IsStaffProjectCreatorOrReadOnly]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user)
+        project = serializer.save(created_by=self.request.user)
+        project.members.add(self.request.user)  # 👈 creator is default member
 
 
 # =========================
 # ISSUES
 # =========================
+
 
 class IssueViewSet(viewsets.ModelViewSet):
     serializer_class = IssueSerializer
@@ -58,10 +63,7 @@ class IssueViewSet(viewsets.ModelViewSet):
 
         # 🔐 Non-admin visibility
         if user.role != "admin":
-            qs = qs.filter(
-                Q(created_by=user) |
-                Q(assigned_to=user)
-            )
+            qs = qs.filter(Q(created_by=user) | Q(assigned_to=user))
 
         # Optional project scoping (URL-based)
         project_id = self.kwargs.get("project_id")
@@ -75,24 +77,21 @@ class IssueViewSet(viewsets.ModelViewSet):
         project = serializer.validated_data.get("project")
 
         if not project:
-            raise serializers.ValidationError(
-                {"project": "Project is required."}
-            )
+            raise serializers.ValidationError({"project": "Project is required."})
 
         # 🔐 Only project members can create issues
         if self.request.user not in project.members.all():
-            raise PermissionDenied(
-                "You are not a member of this project."
-            )
+            raise PermissionDenied("You are not a member of this project.")
 
         serializer.save(created_by=self.request.user)
 
 
 # =========================
-# COMMENTS 
+# COMMENTS
 # =========================
 
 # views.py
+
 
 class CommentViewSet(viewsets.ModelViewSet):
     queryset = Comment.objects.select_related("issue", "user")
@@ -116,6 +115,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 # AUDIT LOGS
 # =========================
 
+
 class IsAuditViewer(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         if not request.user or not request.user.is_authenticated:
@@ -128,8 +128,8 @@ class IsAuditViewer(permissions.BasePermission):
         # Issue participants
         if obj.issue:
             return (
-                obj.issue.created_by == request.user or
-                obj.issue.assigned_to == request.user
+                obj.issue.created_by == request.user
+                or obj.issue.assigned_to == request.user
             )
 
         return False
@@ -143,7 +143,7 @@ class AuditLogViewSet(viewsets.ReadOnlyModelViewSet):
     def get_queryset(self):
         user = self.request.user
         return AuditLog.objects.filter(
-            Q(project__created_by=user) |
-            Q(issue__created_by=user) |
-            Q(issue__assigned_to=user)
+            Q(project__created_by=user)
+            | Q(issue__created_by=user)
+            | Q(issue__assigned_to=user)
         )

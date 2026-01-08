@@ -37,6 +37,26 @@ class IsProjectCreatorOrReadOnly(permissions.BasePermission):
             obj.created_by == request.user
         )
 
+
+class IsStaffProjectCreatorOrReadOnly(BasePermission):
+    def has_permission(self, request, view):
+        # Only staff users can create projects
+        if view.action == "create":
+            return request.user.is_staff
+        return True
+
+    def has_object_permission(self, request, view, obj):
+        # Read-only for everyone authenticated
+        if request.method in SAFE_METHODS:
+            return True
+
+        # Only creator or admin can edit
+        return (
+            request.user.is_staff and
+            (obj.created_by == request.user or request.user.role == "admin")
+        )
+
+
 class IsIssueAssigneeOrReadOnly(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         return (

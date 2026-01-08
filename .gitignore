@@ -1,1 +1,11 @@
 .env
+ip_requests.log
+*.pyc
+__pycache__/
+.DS_Store
+.vscode/
+.idea/
+/*/__pycache__/
+/*/*.log
+/*.sqlite3
+/*/migrations/
